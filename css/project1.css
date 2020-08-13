@@ -1,0 +1,105 @@
+                                                            /*=======================
+                                                                                                                        /*=======================
+                                                                NAVBAR START
+
+                                                            ==========================*/
+
+
+
+
+
+.navbar-nav {
+    margin-left: auto; 
+ }
+ 
+ .navbar {
+     height: 15vh;
+ }
+
+                                                            /*=======================
+                                                                                                                        /*=======================
+                                                                NAVBAR END
+
+                                                            ==========================*/
+
+
+
+
+
+
+                                                            /*=======================
+                                                                                                                        /*=======================
+                                                                LANDING PAGE START
+
+                                                            ==========================*/
+
+.landingParent {
+    height: 85vh;
+}
+
+
+.landingRow1 .col1 {
+    height: 85vh;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #39bcee;
+    color: #28315d;
+     
+}
+h1 {
+    font-weight: 900;
+    font-size:3rem;
+}
+
+.landingRow1 .col2 {
+    
+    height: 85vh;
+    background: url(../image/585284-computer-desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+                                                            /*=======================
+                                                                                                                        /*=======================
+                                                                LANDING PAGE END
+
+                                                            ==========================*/
+
+
+
+
+
+@media only screen and (max-width: 886px) {
+    
+.landingRow1 .col1 {
+    height: 40vh;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #39bcee;
+    color: #28315d;
+    padding-bottom: 10px;
+     
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size:2rem;
+}
+
+.landingRow1 .col2 {
+    
+    height: 50vh;
+    background: url(../image/585284-computer-desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+
+  
+  }
+
+
