@@ -1,5 +1,5 @@
                                                             /*=======================
-                                                                                                                        /*=======================
+                                                                                                          
                                                                 NAVBAR START
 
                                                             ==========================*/
@@ -9,15 +9,24 @@
 
 
 .navbar-nav {
-    margin-left: auto; 
- }
- 
- .navbar {
-     height: 15vh;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    
  }
 
+ .nav-link {
+     margin-left: 30px;
+ }
+
+ .nav-link:hover {
+     color: #28315d !important;
+ }
+
+
+
                                                             /*=======================
-                                                                                                                        /*=======================
+                                                                                        
                                                                 NAVBAR END
 
                                                             ==========================*/
@@ -28,10 +37,15 @@
 
 
                                                             /*=======================
-                                                                                                                        /*=======================
+                                                                                       
                                                                 LANDING PAGE START
 
                                                             ==========================*/
+
+
+ .landingSection {
+     height: 90vh;
+ }
 
 .landingParent {
     height: 85vh;
@@ -39,13 +53,26 @@
 
 
 .landingRow1 .col1 {
-    height: 85vh;
+    
     text-align: center;
     padding-top: 100px;
     background-color: #39bcee;
     color: #28315d;
+    position: relative;
      
 }
+
+.landingRow2 {
+    z-index: 5;
+    height: 15vh;
+    width: 15vh;
+    background-color:#28315d ;
+    position: absolute;
+    top: 70vh;
+    left: 60vh;
+    
+}
+
 h1 {
     font-weight: 900;
     font-size:3rem;
@@ -59,15 +86,135 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+
+
+
+.landingIcon {
+    font-size:7rem;
+    color: white;
+}
+
+
+
+
+
                                                             /*=======================
-                                                                                                                        /*=======================
+                                                                                       
                                                                 LANDING PAGE END
 
                                                             ==========================*/
 
+                                                           /*=======================
+                                                                                       
+                                                               PROJECT PAGE START
+
+                                                            ==========================*/
+
+.projectSection {
+    background-color: #28315d;
+    color: wheat;
+    text-align: justify;
+
+}
+
+.projectSection .container .row1 {
+    position: relative;
+}
+
+.projectSection .container .row1 .col1{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.projectSection .container .row1 .col2{
+    background-color: rgb(222, 227, 230);
+    z-index: 10;
+    color: rgb(75, 78, 85);
+    position: absolute;
+    padding: 50px;
+    top: -20vh;
+    left: 70vh;
+}
+
+.projectSection .container .row1 .col2 h2 {
+    color: #28315d;
+    font-weight: 700;
+    
+}
+
+.projectSection .container .row2 .col2 {
+    padding-top: 80px;
+}
+
+ .projectText {
+    padding-left: 50px;
+}
 
 
+.projectSection .container .row3 .col2 {
+    padding-top: 80px;
+}
 
+.projectSpan {
+    font-size: 40px !important;
+    background-color: #39bcee;
+    padding-left: 20px;
+    margin-right: 20px !important;
+}
+
+
+                                                           /*=======================
+                                                                                       
+                                                               PROJECT PAGE END
+
+                                                            ==========================*/
+
+
+                                                           /*=======================
+                                                                                       
+                                                               ABOUT PAGE START
+
+                                                            ==========================*/
+
+.aboutContainer .row1 .col1 {
+    height: auto;
+    background-image: url(../image/desk_office_chair_design_meeting_80711_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.aboutContainer .row1 .col1 .row2  {
+    margin-left: -20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    position: absolute;
+    background-color: rgb(59, 189, 238) !important;
+    height: 20vh;
+    top: -10vh;
+    color: #28315d;
+}
+
+.aboutContainer .row1 .col1 .row2 h1 {
+    font-size: 35px;
+    
+}
+   
+
+.aboutContainer .row1 .col2 {
+    padding: 50px;
+    background-color: rgb(191, 194, 196);
+}
+
+                                                            
+                                                           /*=======================
+                                                                                       
+                                                              ABOUT PAGE END
+
+                                                            ==========================*/
 
 @media only screen and (max-width: 886px) {
     
@@ -94,12 +241,37 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+   
 }
+  }
 
+  @media only screen and (max-width: 778px) {
+      
+.aboutContainer .row1 .col1 {
+    height: 40vh;
+    background-image: url(../image/desk_office_chair_design_meeting_80711_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+  }
 
+  @media only screen and (max-width: 1200px) {
+    .landingRow2 {
+        display: none;
+    }
+    .aboutContainer .row1 .col1 .row2  {
+        display: none;
+    }
+  }
 
-  
+  @media only screen and (max-width: 1000px) {
+    
+.projectSection .container .row1 .col2{
+   display: none;
+}
   }
 
 
